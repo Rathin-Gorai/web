@@ -100,6 +100,7 @@ span{
   
   
   </div>
+
   <script>
     alert("type= 'connect' after $ to update.\nThen type 'hack'")
 var term=document.querySelector('.term')
@@ -181,6 +182,8 @@ function ert() {
   },3000)
   setTimeout(()=>{
     navigator.vibrate(1000,100,10)
+    document.getElementById("cs").play()
+
     document.getElementById("o").innerHTML=`<div class='h'>
 ░█▀█░█▀█░█▀▄░▀█▀░█░░░░░█▀▀░█▀█░█▀█░█░░
 ░█▀█░█▀▀░█▀▄░░█░░█░░░░░█▀▀░█░█░█░█░█░░
@@ -188,6 +191,10 @@ function ert() {
 alert('April Fool\nYou have just been fooled')
   },7000)
 }
+
 </script>
+<audio id="cs" loop>
+  <source src="https://github.com/Rathin-Gorai/web/blob/main/April%20Fool%20Banaya%20(mp3cut.net).mp3?raw=true">
+  </audio>
 </body>
 </html>
